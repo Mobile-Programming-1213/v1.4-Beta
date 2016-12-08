@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="colorPrimary">#663301</item>
+        <item name="colorPrimaryDark">#663301</item>
+        <item name="colorAccent">#000000</item>
+
+    </style>
+
+    <!--스플래시 테마 -->
+    <style name="SplashTheme" parent = "@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+</resources>

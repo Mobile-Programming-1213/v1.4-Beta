@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="ssjk.cafein.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#663301"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background = "@drawable/ic_cafein_main"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/menu"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:title="Search Title"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:showAsAction="collapseActionView|ifRoom"
+            android:actionViewClass="android.widget.SearchView"
+            android:background="@drawable/search"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_toCafe"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:textSize="10sp"
+            android:text="CAFE"
+            android:drawableTop="@drawable/ic_button_cafe" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="COFFEE"
+            android:drawableTop="@drawable/ic_button_coffee_focused"
+            android:focusable="true"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f4f4f4"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Caffeine"/>
+
+            <Button
+                android:id="@+id/btn_Americano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="americano"/>
+            <Button
+                android:id="@+id/btn_Cafe_Latte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cafe Latte"/>
+            <Button
+                android:id="@+id/btn_Cappucino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cappucino"/>
+            <Button
+                android:id="@+id/btn_Cafe_Mocha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cafe Mocha"/>
+            <Button
+                android:id="@+id/btn_Caramel_Machiatto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Caramel Machiatto"/>
+            <Button
+                android:id="@+id/btn_Espresso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Espresso"/>
+            <Button
+                android:id="@+id/btn_Vanila_Latte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vanila Latte"/>
+            <Button
+                android:id="@+id/btn_Green_Latte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Green Tea Latte"/>
+            <Button
+                android:id="@+id/btn_Hazelnut_Latte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hazelnut Latte"/>
+            <Button
+                android:id="@+id/btn_Chocolate_Latte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chocolate Latte"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Tea"/>
+
+            <Button
+                android:id="@+id/btn_Camomile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camomile"/>
+            <Button
+                android:id="@+id/btn_Peppermint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Peppermint"/>
+            <Button
+                android:id="@+id/btn_Grapefruit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grapefruit"/>
+            <Button
+                android:id="@+id/btn_Earl_Grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Earl Grey"/>
+            <Button
+                android:id="@+id/btn_Lemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lemon"/>
+            <Button
+                android:id="@+id/btn_Citron"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Citron"/>
+            <Button
+                android:id="@+id/btn_English_Breakfast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English Breakfast"/>
+            <Button
+                android:id="@+id/btn_Jasmine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jasmine"/>
+            <Button
+                android:id="@+id/btn_Rooibos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rooibos"/>
+            <Button
+                android:id="@+id/btn_Rosemary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rosemary"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Beverage"/>
+
+            <Button
+                android:id="@+id/btn_it_peach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ice Tea Peach"/>
+            <Button
+                android:id="@+id/btn_it_lemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ice Tea Lemon"/>
+            <Button
+                android:id="@+id/btn_Lemonade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lemonade"/>
+            <Button
+                android:id="@+id/btn_Grapefruit_ade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Grapefruit Ade"/>
+            <Button
+                android:id="@+id/btn_P_Y_Smoothie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plain Yogurt Smoothie"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
